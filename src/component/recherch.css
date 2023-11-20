@@ -1,0 +1,84 @@
+.SuperstarApp {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+  }
+
+  h1 {
+    color: red;
+    font-size: 2em;
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+
+ 
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+   li{
+    color: white;
+    background-color: #003152;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #e55c00;
+  }
+
+
+
+
+
+  @media (max-width: 480px) {
+    .SuperstarApp {
+        padding: 10px; /* Ajuster le padding pour les écrans plus petits */
+        max-width: 95%; /* Utilisez 100% de la largeur de l'écran */
+        margin: 20px auto; /* Ajuster la marge pour les écrans plus petits */
+    }
+
+    h1 {
+        font-size: 2em; /* Ajuster la taille de la police pour les écrans plus petits */
+    }
+
+    li {
+        font-size: 16px; /* Ajuster la taille de la police pour les écrans plus petits */
+    }
+
+    button {
+        padding: 8px 12px; /* Ajuster le padding pour les écrans plus petits */
+        margin: 8px;
+        font-size: 0.8em; /* Ajuster la taille de la police pour les écrans plus petits */
+    }
+
+    
+    input[type="text"],input[type="email"]{
+        width: 100%; /* Utilisez 100% de la largeur de l'écran */
+    }
+}
+  
