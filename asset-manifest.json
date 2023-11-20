@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TP_Contact/static/css/main.6bc28158.css",
+    "main.js": "/TP_Contact/static/js/main.1f00b9dd.js",
+    "static/js/787.f27c4de8.chunk.js": "/TP_Contact/static/js/787.f27c4de8.chunk.js",
+    "index.html": "/TP_Contact/index.html",
+    "main.6bc28158.css.map": "/TP_Contact/static/css/main.6bc28158.css.map",
+    "main.1f00b9dd.js.map": "/TP_Contact/static/js/main.1f00b9dd.js.map",
+    "787.f27c4de8.chunk.js.map": "/TP_Contact/static/js/787.f27c4de8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bc28158.css",
+    "static/js/main.1f00b9dd.js"
+  ]
+}
